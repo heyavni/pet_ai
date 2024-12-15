@@ -1,0 +1,45 @@
+{
+    "greetings": [
+        {
+            "patterns": [
+                "hello",
+                "hi",
+                "hey"
+            ],
+            "response": "Hello! How can I help you?"
+        },
+        {
+            "patterns": [
+                "how are you"
+            ],
+            "response": "I'm doing well, thank you for asking!"
+        }
+    ],
+    "system_commands": [
+        {
+            "patterns": [
+                "exit",
+                "quit",
+                "goodbye"
+            ],
+            "response": "Goodbye!",
+            "action": "exit"
+        },
+        {
+            "patterns": [
+                "what can you do",
+                "help"
+            ],
+            "response": "I can help with various tasks. Just ask me something!"
+        }
+    ],
+    "time_commands": [
+        {
+            "patterns": [
+                "what time is it",
+                "current time"
+            ],
+            "action": "get_current_time"
+        }
+    ]
+}
