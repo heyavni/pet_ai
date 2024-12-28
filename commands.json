@@ -41,5 +41,49 @@
             ],
             "action": "get_current_time"
         }
+    ],
+    "dog_commands": [
+        {
+            "patterns": [
+                "happy",
+                "be happy"
+            ],
+            "action": "happy"
+        },
+        {
+            "patterns": [
+                "walk",
+                "start walking"
+            ],
+            "action": "walk"
+        },
+        {
+            "patterns": [
+                "run",
+                "start running"
+            ],
+            "action": "run"
+        },
+        {
+            "patterns": [
+                "sit",
+                "take a seat"
+            ],
+            "action": "sit"
+        },
+        {
+            "patterns": [
+                "stand",
+                "stop"
+            ],
+            "action": "stand"
+        },
+        {
+            "patterns": [
+                "sleep",
+                "take a nap"
+            ],
+            "action": "sleep"
+        }
     ]
 }
